@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		2B75D4F05781616A0DFA92F0 /* Pods_Epic.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A075CDAEBDB8B0718D523042 /* Pods_Epic.framework */; };
 		616321F722370FB600FF1213 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 616321F622370FB600FF1213 /* AppDelegate.swift */; };
 		616321F922370FB600FF1213 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 616321F822370FB600FF1213 /* ViewController.swift */; };
 		616321FC22370FB600FF1213 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 616321FA22370FB600FF1213 /* Main.storyboard */; };
@@ -16,6 +17,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		267659C7F81CE7DACA719451 /* Pods-Epic.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Epic.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Epic/Pods-Epic.debug.xcconfig"; sourceTree = "<group>"; };
 		616321F322370FB600FF1213 /* Epic.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Epic.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		616321F622370FB600FF1213 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		616321F822370FB600FF1213 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -24,6 +26,8 @@
 		6163220022370FB800FF1213 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		6163220322370FB800FF1213 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		6163220522370FB800FF1213 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A075CDAEBDB8B0718D523042 /* Pods_Epic.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Epic.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		AA272AEDD4472C39251649AF /* Pods-Epic.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Epic.release.xcconfig"; path = "Pods/Target Support Files/Pods-Epic/Pods-Epic.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -31,17 +35,28 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				2B75D4F05781616A0DFA92F0 /* Pods_Epic.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		4EEA886DDDDEBF1212C33153 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				A075CDAEBDB8B0718D523042 /* Pods_Epic.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 		616321EA22370FB600FF1213 = {
 			isa = PBXGroup;
 			children = (
 				616321F522370FB600FF1213 /* Epic */,
 				616321F422370FB600FF1213 /* Products */,
+				F8921BBE9A28B9120F44F86E /* Pods */,
+				4EEA886DDDDEBF1212C33153 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -67,6 +82,15 @@
 			path = Epic;
 			sourceTree = "<group>";
 		};
+		F8921BBE9A28B9120F44F86E /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				267659C7F81CE7DACA719451 /* Pods-Epic.debug.xcconfig */,
+				AA272AEDD4472C39251649AF /* Pods-Epic.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -74,9 +98,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 6163220822370FB800FF1213 /* Build configuration list for PBXNativeTarget "Epic" */;
 			buildPhases = (
+				60BC360AB868D97AEF0A350A /* [CP] Check Pods Manifest.lock */,
 				616321EF22370FB600FF1213 /* Sources */,
 				616321F022370FB600FF1213 /* Frameworks */,
 				616321F122370FB600FF1213 /* Resources */,
+				4459F7D904A8AD90C279CC16 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -132,6 +158,45 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		4459F7D904A8AD90C279CC16 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-Epic/Pods-Epic-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/Pulley/Pulley.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Pulley.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Epic/Pods-Epic-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		60BC360AB868D97AEF0A350A /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Epic-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		616321EF22370FB600FF1213 /* Sources */ = {
@@ -284,15 +349,13 @@
 		};
 		6163220922370FB800FF1213 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 267659C7F81CE7DACA719451 /* Pods-Epic.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = B4WE2NR99U;
 				INFOPLIST_FILE = Epic/Info.plist;
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/Frameworks",
-				);
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = al.epic.Epic;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.2;
@@ -302,15 +365,13 @@
 		};
 		6163220A22370FB800FF1213 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = AA272AEDD4472C39251649AF /* Pods-Epic.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = B4WE2NR99U;
 				INFOPLIST_FILE = Epic/Info.plist;
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/Frameworks",
-				);
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = al.epic.Epic;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.2;
