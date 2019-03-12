@@ -9,23 +9,50 @@
 /* Begin PBXBuildFile section */
 		2B75D4F05781616A0DFA92F0 /* Pods_Epic.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A075CDAEBDB8B0718D523042 /* Pods_Epic.framework */; };
 		616321F722370FB600FF1213 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 616321F622370FB600FF1213 /* AppDelegate.swift */; };
-		616321F922370FB600FF1213 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 616321F822370FB600FF1213 /* ViewController.swift */; };
-		616321FC22370FB600FF1213 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 616321FA22370FB600FF1213 /* Main.storyboard */; };
 		616321FF22370FB600FF1213 /* Epic.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 616321FD22370FB600FF1213 /* Epic.xcdatamodeld */; };
 		6163220122370FB800FF1213 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 6163220022370FB800FF1213 /* Assets.xcassets */; };
-		6163220422370FB800FF1213 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6163220222370FB800FF1213 /* LaunchScreen.storyboard */; };
+		61B10DE5223713C8001E9DB1 /* MainViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 61B10DE3223713C8001E9DB1 /* MainViewController.swift */; };
+		61B10DE6223713C8001E9DB1 /* MainViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 61B10DE4223713C8001E9DB1 /* MainViewController.xib */; };
+		61B10DEB22371483001E9DB1 /* DrawerTransitionTestViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 61B10DE922371483001E9DB1 /* DrawerTransitionTestViewController.swift */; };
+		61B10DEC22371483001E9DB1 /* DrawerTransitionTestViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 61B10DEA22371483001E9DB1 /* DrawerTransitionTestViewController.xib */; };
+		61B10DF322371503001E9DB1 /* MainTest1ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 61B10DF122371503001E9DB1 /* MainTest1ViewController.swift */; };
+		61B10DF422371503001E9DB1 /* MainTest1ViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 61B10DF222371503001E9DB1 /* MainTest1ViewController.xib */; };
+		61B10DF722371515001E9DB1 /* MainTest2ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 61B10DF522371515001E9DB1 /* MainTest2ViewController.swift */; };
+		61B10DF822371515001E9DB1 /* MainTest2ViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 61B10DF622371515001E9DB1 /* MainTest2ViewController.xib */; };
+		61B10DFB22371540001E9DB1 /* SampleCellTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 61B10DF922371540001E9DB1 /* SampleCellTableViewCell.swift */; };
+		61B10DFC22371540001E9DB1 /* SampleCellTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 61B10DFA22371540001E9DB1 /* SampleCellTableViewCell.xib */; };
+		61B10DFF22371582001E9DB1 /* CustomMaskExample.swift in Sources */ = {isa = PBXBuildFile; fileRef = 61B10DFE22371582001E9DB1 /* CustomMaskExample.swift */; };
+		61B10E02223715D5001E9DB1 /* TableDisplayTypes.swift in Sources */ = {isa = PBXBuildFile; fileRef = 61B10E01223715D5001E9DB1 /* TableDisplayTypes.swift */; };
+		61B10E04223715F4001E9DB1 /* GenericHelper.swift in Sources */ = {isa = PBXBuildFile; fileRef = 61B10E03223715F4001E9DB1 /* GenericHelper.swift */; };
+		61B10E0722371627001E9DB1 /* AIDiscussionTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 61B10E0622371627001E9DB1 /* AIDiscussionTableViewCell.swift */; };
+		61B10E0A22371839001E9DB1 /* DrawerViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 61B10E0822371839001E9DB1 /* DrawerViewController.swift */; };
+		61B10E0B22371839001E9DB1 /* DrawerViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 61B10E0922371839001E9DB1 /* DrawerViewController.xib */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		267659C7F81CE7DACA719451 /* Pods-Epic.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Epic.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Epic/Pods-Epic.debug.xcconfig"; sourceTree = "<group>"; };
 		616321F322370FB600FF1213 /* Epic.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Epic.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		616321F622370FB600FF1213 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		616321F822370FB600FF1213 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		616321FB22370FB600FF1213 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		616321FE22370FB600FF1213 /* Epic.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = Epic.xcdatamodel; sourceTree = "<group>"; };
 		6163220022370FB800FF1213 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
-		6163220322370FB800FF1213 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		6163220522370FB800FF1213 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		61B10DE3223713C8001E9DB1 /* MainViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainViewController.swift; sourceTree = "<group>"; };
+		61B10DE4223713C8001E9DB1 /* MainViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = MainViewController.xib; sourceTree = "<group>"; };
+		61B10DE922371483001E9DB1 /* DrawerTransitionTestViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DrawerTransitionTestViewController.swift; sourceTree = "<group>"; };
+		61B10DEA22371483001E9DB1 /* DrawerTransitionTestViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = DrawerTransitionTestViewController.xib; sourceTree = "<group>"; };
+		61B10DF122371503001E9DB1 /* MainTest1ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainTest1ViewController.swift; sourceTree = "<group>"; };
+		61B10DF222371503001E9DB1 /* MainTest1ViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = MainTest1ViewController.xib; sourceTree = "<group>"; };
+		61B10DF522371515001E9DB1 /* MainTest2ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainTest2ViewController.swift; sourceTree = "<group>"; };
+		61B10DF622371515001E9DB1 /* MainTest2ViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = MainTest2ViewController.xib; sourceTree = "<group>"; };
+		61B10DF922371540001E9DB1 /* SampleCellTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SampleCellTableViewCell.swift; sourceTree = "<group>"; };
+		61B10DFA22371540001E9DB1 /* SampleCellTableViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = SampleCellTableViewCell.xib; sourceTree = "<group>"; };
+		61B10DFE22371582001E9DB1 /* CustomMaskExample.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomMaskExample.swift; sourceTree = "<group>"; };
+		61B10E00223715AF001E9DB1 /* Pulley.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Pulley.h; sourceTree = "<group>"; };
+		61B10E01223715D5001E9DB1 /* TableDisplayTypes.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TableDisplayTypes.swift; sourceTree = "<group>"; };
+		61B10E03223715F4001E9DB1 /* GenericHelper.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GenericHelper.swift; sourceTree = "<group>"; };
+		61B10E0622371627001E9DB1 /* AIDiscussionTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AIDiscussionTableViewCell.swift; sourceTree = "<group>"; };
+		61B10E0822371839001E9DB1 /* DrawerViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DrawerViewController.swift; sourceTree = "<group>"; };
+		61B10E0922371839001E9DB1 /* DrawerViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = DrawerViewController.xib; sourceTree = "<group>"; };
 		A075CDAEBDB8B0718D523042 /* Pods_Epic.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Epic.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		AA272AEDD4472C39251649AF /* Pods-Epic.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Epic.release.xcconfig"; path = "Pods/Target Support Files/Pods-Epic/Pods-Epic.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -71,15 +98,61 @@
 		616321F522370FB600FF1213 /* Epic */ = {
 			isa = PBXGroup;
 			children = (
+				61B10E052237160D001E9DB1 /* TableViewCells */,
+				61B10DFD22371564001E9DB1 /* SupportFiles */,
+				61B10DE82237142A001E9DB1 /* ViewControllers */,
+				61B10DE7223713E0001E9DB1 /* Nibs */,
 				616321F622370FB600FF1213 /* AppDelegate.swift */,
-				616321F822370FB600FF1213 /* ViewController.swift */,
-				616321FA22370FB600FF1213 /* Main.storyboard */,
 				6163220022370FB800FF1213 /* Assets.xcassets */,
-				6163220222370FB800FF1213 /* LaunchScreen.storyboard */,
 				6163220522370FB800FF1213 /* Info.plist */,
 				616321FD22370FB600FF1213 /* Epic.xcdatamodeld */,
+				61B10DE3223713C8001E9DB1 /* MainViewController.swift */,
 			);
 			path = Epic;
+			sourceTree = "<group>";
+		};
+		61B10DE7223713E0001E9DB1 /* Nibs */ = {
+			isa = PBXGroup;
+			children = (
+				61B10E0922371839001E9DB1 /* DrawerViewController.xib */,
+				61B10DEA22371483001E9DB1 /* DrawerTransitionTestViewController.xib */,
+				61B10DF622371515001E9DB1 /* MainTest2ViewController.xib */,
+				61B10DF222371503001E9DB1 /* MainTest1ViewController.xib */,
+				61B10DFA22371540001E9DB1 /* SampleCellTableViewCell.xib */,
+				61B10DE4223713C8001E9DB1 /* MainViewController.xib */,
+			);
+			path = Nibs;
+			sourceTree = "<group>";
+		};
+		61B10DE82237142A001E9DB1 /* ViewControllers */ = {
+			isa = PBXGroup;
+			children = (
+				61B10DE922371483001E9DB1 /* DrawerTransitionTestViewController.swift */,
+				61B10DF122371503001E9DB1 /* MainTest1ViewController.swift */,
+				61B10DF522371515001E9DB1 /* MainTest2ViewController.swift */,
+				61B10DF922371540001E9DB1 /* SampleCellTableViewCell.swift */,
+				61B10E0822371839001E9DB1 /* DrawerViewController.swift */,
+			);
+			path = ViewControllers;
+			sourceTree = "<group>";
+		};
+		61B10DFD22371564001E9DB1 /* SupportFiles */ = {
+			isa = PBXGroup;
+			children = (
+				61B10DFE22371582001E9DB1 /* CustomMaskExample.swift */,
+				61B10E00223715AF001E9DB1 /* Pulley.h */,
+				61B10E01223715D5001E9DB1 /* TableDisplayTypes.swift */,
+				61B10E03223715F4001E9DB1 /* GenericHelper.swift */,
+			);
+			path = SupportFiles;
+			sourceTree = "<group>";
+		};
+		61B10E052237160D001E9DB1 /* TableViewCells */ = {
+			isa = PBXGroup;
+			children = (
+				61B10E0622371627001E9DB1 /* AIDiscussionTableViewCell.swift */,
+			);
+			path = TableViewCells;
 			sourceTree = "<group>";
 		};
 		F8921BBE9A28B9120F44F86E /* Pods */ = {
@@ -151,9 +224,13 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				6163220422370FB800FF1213 /* LaunchScreen.storyboard in Resources */,
+				61B10DFC22371540001E9DB1 /* SampleCellTableViewCell.xib in Resources */,
+				61B10DE6223713C8001E9DB1 /* MainViewController.xib in Resources */,
+				61B10DF422371503001E9DB1 /* MainTest1ViewController.xib in Resources */,
+				61B10DEC22371483001E9DB1 /* DrawerTransitionTestViewController.xib in Resources */,
+				61B10E0B22371839001E9DB1 /* DrawerViewController.xib in Resources */,
+				61B10DF822371515001E9DB1 /* MainTest2ViewController.xib in Resources */,
 				6163220122370FB800FF1213 /* Assets.xcassets in Resources */,
-				616321FC22370FB600FF1213 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -203,32 +280,22 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				616321F922370FB600FF1213 /* ViewController.swift in Sources */,
+				61B10DE5223713C8001E9DB1 /* MainViewController.swift in Sources */,
+				61B10E04223715F4001E9DB1 /* GenericHelper.swift in Sources */,
+				61B10E02223715D5001E9DB1 /* TableDisplayTypes.swift in Sources */,
+				61B10E0722371627001E9DB1 /* AIDiscussionTableViewCell.swift in Sources */,
 				616321FF22370FB600FF1213 /* Epic.xcdatamodeld in Sources */,
+				61B10E0A22371839001E9DB1 /* DrawerViewController.swift in Sources */,
+				61B10DF322371503001E9DB1 /* MainTest1ViewController.swift in Sources */,
+				61B10DEB22371483001E9DB1 /* DrawerTransitionTestViewController.swift in Sources */,
+				61B10DFB22371540001E9DB1 /* SampleCellTableViewCell.swift in Sources */,
+				61B10DFF22371582001E9DB1 /* CustomMaskExample.swift in Sources */,
 				616321F722370FB600FF1213 /* AppDelegate.swift in Sources */,
+				61B10DF722371515001E9DB1 /* MainTest2ViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
-
-/* Begin PBXVariantGroup section */
-		616321FA22370FB600FF1213 /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				616321FB22370FB600FF1213 /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
-		6163220222370FB800FF1213 /* LaunchScreen.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				6163220322370FB800FF1213 /* Base */,
-			);
-			name = LaunchScreen.storyboard;
-			sourceTree = "<group>";
-		};
-/* End PBXVariantGroup section */
 
 /* Begin XCBuildConfiguration section */
 		6163220622370FB800FF1213 /* Debug */ = {
@@ -355,7 +422,10 @@
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = B4WE2NR99U;
 				INFOPLIST_FILE = Epic/Info.plist;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
 				PRODUCT_BUNDLE_IDENTIFIER = al.epic.Epic;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.2;
@@ -371,7 +441,10 @@
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = B4WE2NR99U;
 				INFOPLIST_FILE = Epic/Info.plist;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
 				PRODUCT_BUNDLE_IDENTIFIER = al.epic.Epic;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.2;

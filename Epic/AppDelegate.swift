@@ -8,6 +8,7 @@
 
 import UIKit
 import CoreData
+import Pulley
 
 @UIApplicationMain
 class AppDelegate: UIResponder, UIApplicationDelegate {
@@ -17,6 +18,34 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
 
     func application(_ application: UIApplication, didFinishLaunchingWithOptions launchOptions: [UIApplication.LaunchOptionsKey: Any]?) -> Bool {
         // Override point for customization after application launch.
+        
+        //UIApplication.shared.statusBarStyle = .lightContent
+        
+        // this is how we build out our app in code
+        window = UIWindow()
+        
+        
+        //        let randomViewController = UIViewController()
+        //        randomViewController.view.backgroundColor = .purple
+        
+        
+        
+        
+        // To create in code (uncomment this block)
+        let mainContentVC = MainViewController()
+        let drawerContentVC = DrawerViewController()
+        let pulleyDrawerVC = PulleyViewController(contentViewController: mainContentVC, drawerViewController: drawerContentVC)
+        
+        //Uncomment this next line to give the drawer a starting position, in this case: closed.
+        // pulleyDrawerVC.initialDrawerPosition = .closed
+        
+        window?.rootViewController = pulleyDrawerVC
+        
+        window?.makeKeyAndVisible()
+        
+        
+        
+        
         return true
     }
 
